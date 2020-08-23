@@ -5,10 +5,11 @@
 Test server with: 
 
 
-Client -------> GatewayServer   -----> NettyHTTPServer 
-               (localhost:9090)       (localhost:6060)  
+Client -------> GatewayServer(localhost:9090)   -----> NettyHTTPServer(localhost:6060) 
+                        
 
 
+Client 
 ```shell script
-curl http://localhost:6060/foo
+curl http://localhost:9090/foo
 ```
