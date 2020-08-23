@@ -4,7 +4,7 @@
 
 ## Scenario 
 
-Client -------> GatewayServer(localhost:9090)   -----> NettyHTTPServer(localhost:6060) 
+**Client** -------> **GatewayServer**(localhost:9090)   -----> **NettyHTTPServer**(localhost:6060) 
                         
 
 
